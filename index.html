@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Select subject and time count for each question  -->
+             
+            <div class="dropdown" id="subject">
+
+                 <div class="dropdown-button" id="dropdownButton" type="button">
+                    <!-- <span class="text">Subject</span> -->
+                     <span class="text">
+                        Subject
+                     </span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                
+                 </div>
+                <!-- Dropdown list items-->
+                <div class="subject-menu" id="subjectsMenu" type="button">
+                    <!-- <div class="subject-item">Subject 1</div>
+                    <div class="subject-item">Subject 2</div>
+                    <div class="subject-item">Subject 3</div> -->
+
+                </div>
+            </div>
+            <span class="text subject-text">Course: ${a}</span>
+            <span class="text time-counter" id="time-counter">
+                Time left: 60s
+            </span>
+        </header>
+        <main class="main">
+            <div class="main-navigation" id="main-navigation">
+                <!-- Display question -->
+                <div class="question-banner">
+                    <span class="text" id="question">
+                        How do you view key information to help you with troubleshooting errors?
+                    </span>
+                </div>
+
+                <!-- Display a list of answers -->
+                <div class="answers-banner grid" id="answers">
+                    <div class="grid gap-3">
+                        <!-- First answer -->
+                        <div class="row answer-box" type="button" >
+                            <span class="text answer">First answer</span>
+                        </div>
+
+                        <!-- Second answer -->
+                        <div class="row answer-box" type="button">
+                            <span class="text answer">First answer</span>
+                        </div>
+                        <!-- Third answer -->
+
+                        <div class="row answer-box" type="button">
+                            <span class="text answer">First answer</span>
+                        </div>
+                        <!-- Fourth answer -->
+                        <div class="row answer-box" type="button">
+                            <span class="text answer">First answer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swipe">
+                    <i class="fa-solid fa-arrow-left fa-3x"></i>
+                    <i class="fa-solid fa-arrow-right fa-3x"></i>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/efb9b0377e.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+</html>

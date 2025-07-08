@@ -1,0 +1,716 @@
+{
+  "Docker": [
+    {
+      "question": "What is the primary purpose of a Dockerfile?",
+      "answers": {
+        "A": "To define container runtime constraints",
+        "B": "To build Docker images automatically",
+        "C": "To manage container networking",
+        "D": "To monitor container resource usage"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which command lists all running Docker containers?",
+      "answers": {
+        "A": "docker ps",
+        "B": "docker images",
+        "C": "docker run",
+        "D": "docker status"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What does Docker Compose primarily manage?",
+      "answers": {
+        "A": "Single-container applications",
+        "B": "Multi-container applications",
+        "C": "Docker image registries",
+        "D": "Container security policies"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which Docker object provides persistent storage?",
+      "answers": {
+        "A": "Images",
+        "B": "Containers",
+        "C": "Volumes",
+        "D": "Networks"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is the default network driver for Docker?",
+      "answers": {
+        "A": "host",
+        "B": "none",
+        "C": "overlay",
+        "D": "bridge"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "Which command removes all stopped containers?",
+      "answers": {
+        "A": "docker rm --all",
+        "B": "docker container prune",
+        "C": "docker system clean",
+        "D": "docker delete stopped"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What is Docker Hub primarily used for?",
+      "answers": {
+        "A": "Container orchestration",
+        "B": "Image registry and sharing",
+        "C": "Network configuration",
+        "D": "Performance monitoring"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which flag is used to publish container ports in Docker?",
+      "answers": {
+        "A": "--expose",
+        "B": "--network",
+        "C": "--publish",
+        "D": "--port-forward"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What does the CMD instruction do in a Dockerfile?",
+      "answers": {
+        "A": "Builds the image layers",
+        "B": "Sets default commands for the container",
+        "C": "Configures environment variables",
+        "D": "Defines container entry points"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which technology provides OS-level virtualization in Docker?",
+      "answers": {
+        "A": "VirtualBox",
+        "B": "Kubernetes",
+        "C": "cgroups",
+        "D": "Namespaces"
+      },
+      "correct_answer": "D"
+    }
+  ],
+  "Python": [
+    {
+      "question": "Which keyword defines a custom exception in Python?",
+      "answers": {
+        "A": "throw",
+        "B": "exception",
+        "C": "raise",
+        "D": "catch"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What does the 'yield' keyword do?",
+      "answers": {
+        "A": "Returns a value from a function",
+        "B": "Pauses function execution and returns a generator",
+        "C": "Terminates loop execution",
+        "D": "Imports modules dynamically"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which is NOT a mutable data type?",
+      "answers": {
+        "A": "List",
+        "B": "Dictionary",
+        "C": "Set",
+        "D": "Tuple"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "What is the output of 'bool([])'?",
+      "answers": {
+        "A": "True",
+        "B": "False",
+        "C": "None",
+        "D": "Error"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which module supports regular expressions?",
+      "answers": {
+        "A": "regex",
+        "B": "re",
+        "C": "pyregex",
+        "D": "pattern"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does @staticmethod decorator do?",
+      "answers": {
+        "A": "Converts method to class method",
+        "B": "Makes method accessible without instance",
+        "C": "Prevents method overriding",
+        "D": "Enables method overloading"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which tool creates virtual environments?",
+      "answers": {
+        "A": "pipenv",
+        "B": "pyenv",
+        "C": "venv",
+        "D": "All of the above"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "What is Duck Typing?",
+      "answers": {
+        "A": "Type checking based on inheritance",
+        "B": "Object typing based on methods/attributes",
+        "C": "Static type declaration",
+        "D": "Automatic type conversion"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which is used for package management?",
+      "answers": {
+        "A": "pip",
+        "B": "pypi",
+        "C": "pyc",
+        "D": "pydoc"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What does 'if __name__ == '__main__':' do?",
+      "answers": {
+        "A": "Checks if script is imported",
+        "B": "Runs code only when executed directly",
+        "C": "Defines main function",
+        "D": "Sets entry point for packages"
+      },
+      "correct_answer": "B"
+    }
+  ],
+  "Javascript": [
+    {
+      "question": "What is hoisting in JavaScript?",
+      "answers": {
+        "A": "Variable declaration moved to top of scope",
+        "B": "Variable type conversion",
+        "C": "DOM element positioning",
+        "D": "Asynchronous callback handling"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "Which method adds elements to an array end?",
+      "answers": {
+        "A": "shift()",
+        "B": "unshift()",
+        "C": "push()",
+        "D": "pop()"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What does '===' operator check?",
+      "answers": {
+        "A": "Value equality only",
+        "B": "Reference equality",
+        "C": "Value and type equality",
+        "D": "Assignment operation"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is a closure?",
+      "answers": {
+        "A": "Function bundled with its lexical environment",
+        "B": "Asynchronous function wrapper",
+        "C": "Garbage collection mechanism",
+        "D": "Module export pattern"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "Which is NOT a JavaScript framework?",
+      "answers": {
+        "A": "React",
+        "B": "Angular",
+        "C": "Vue",
+        "D": "Flask"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "What does the 'this' keyword refer to?",
+      "answers": {
+        "A": "Current function object",
+        "B": "Global window object",
+        "C": "Calling context object",
+        "D": "Parent class object"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which statement handles asynchronous operations?",
+      "answers": {
+        "A": "async/await",
+        "B": "for...of",
+        "C": "switch",
+        "D": "try/catch"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What does JSON.parse() do?",
+      "answers": {
+        "A": "Converts object to JSON string",
+        "B": "Parses JSON to JavaScript object",
+        "C": "Validates JSON syntax",
+        "D": "Stringifies JavaScript values"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which method creates a new array from another?",
+      "answers": {
+        "A": "slice()",
+        "B": "splice()",
+        "C": "split()",
+        "D": "join()"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What is event bubbling?",
+      "answers": {
+        "A": "Events propagate from target to root",
+        "B": "Multiple events trigger simultaneously",
+        "C": "Event callback execution order",
+        "D": "Asynchronous event handling"
+      },
+      "correct_answer": "A"
+    }
+  ],
+  "Github": [
+    {
+      "question": "What command clones a repository?",
+      "answers": {
+        "A": "git clone",
+        "B": "git pull",
+        "C": "git fork",
+        "D": "git copy"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What is a Pull Request?",
+      "answers": {
+        "A": "Request to delete a branch",
+        "B": "Proposal to merge changes",
+        "C": "Command to fetch updates",
+        "D": "Bug reporting tool"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which file ignores specified files in Git?",
+      "answers": {
+        "A": ".gitignore",
+        "B": ".gitattributes",
+        "C": ".gitconfig",
+        "D": ".gitmodules"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What does 'git stash' do?",
+      "answers": {
+        "A": "Saves changes temporarily",
+        "B": "Deletes untracked files",
+        "C": "Shows commit history",
+        "D": "Creates new branch"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "How do you add all modified files to staging?",
+      "answers": {
+        "A": "git add .",
+        "B": "git commit -a",
+        "C": "git stage *",
+        "D": "git update"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What is GitHub Actions used for?",
+      "answers": {
+        "A": "Code review automation",
+        "B": "CI/CD workflows",
+        "C": "Branch protection",
+        "D": "Issue tracking"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which command shows commit history?",
+      "answers": {
+        "A": "git log",
+        "B": "git history",
+        "C": "git show",
+        "D": "git diff"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What is a 'fork'?",
+      "answers": {
+        "A": "Local copy of repository",
+        "B": "Personal copy of someone else's project",
+        "C": "Branch naming convention",
+        "D": "Merge conflict resolution tool"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "How do you discard local changes?",
+      "answers": {
+        "A": "git reset --hard",
+        "B": "git revert",
+        "C": "git clean",
+        "D": "git undo"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What does 'git rebase' do?",
+      "answers": {
+        "A": "Moves branch base commit",
+        "B": "Deletes commit history",
+        "C": "Compresses repository size",
+        "D": "Tags release versions"
+      },
+      "correct_answer": "A"
+    }
+  ],
+  "Computer Network": [
+    {
+      "question": "What protocol resolves domain names to IPs?",
+      "answers": {
+        "A": "DHCP",
+        "B": "FTP",
+        "C": "DNS",
+        "D": "HTTP"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which layer handles routing in OSI model?",
+      "answers": {
+        "A": "Physical",
+        "B": "Data Link",
+        "C": "Network",
+        "D": "Transport"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is the purpose of TCP?",
+      "answers": {
+        "A": "Connectionless communication",
+        "B": "Best-effort packet delivery",
+        "C": "Reliable ordered data delivery",
+        "D": "Network address translation"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which device operates at Layer 2?",
+      "answers": {
+        "A": "Router",
+        "B": "Switch",
+        "C": "Hub",
+        "D": "Repeater"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does VPN stand for?",
+      "answers": {
+        "A": "Virtual Private Network",
+        "B": "Verified Public Node",
+        "C": "Virtual Protocol Network",
+        "D": "Verified Private Node"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "Which port does HTTPS use by default?",
+      "answers": {
+        "A": "80",
+        "B": "22",
+        "C": "443",
+        "D": "8080"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What is NAT used for?",
+      "answers": {
+        "A": "Encrypting network traffic",
+        "B": "Translating private IPs to public",
+        "C": "Domain name resolution",
+        "D": "Wireless authentication"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which protocol is connectionless?",
+      "answers": {
+        "A": "TCP",
+        "B": "UDP",
+        "C": "FTP",
+        "D": "HTTP"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does LAN stand for?",
+      "answers": {
+        "A": "Local Access Network",
+        "B": "Long Area Network",
+        "C": "Local Area Network",
+        "D": "Linked Area Network"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which topology connects all devices to a central point?",
+      "answers": {
+        "A": "Bus",
+        "B": "Ring",
+        "C": "Mesh",
+        "D": "Star"
+      },
+      "correct_answer": "D"
+    }
+  ],
+  "Numpy": [
+    {
+      "question": "What is NumPy primarily used for?",
+      "answers": {
+        "A": "Web development",
+        "B": "Numerical computing with arrays",
+        "C": "Machine learning model training",
+        "D": "Data visualization"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "How do you create a 3x3 identity matrix?",
+      "answers": {
+        "A": "numpy.eye(3)",
+        "B": "numpy.identity(3)",
+        "C": "numpy.ones((3,3))",
+        "D": "Both A and B"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "What does array broadcasting allow?",
+      "answers": {
+        "A": "Memory-efficient array storage",
+        "B": "Operations on arrays of different shapes",
+        "C": "GPU acceleration",
+        "D": "Array serialization"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which method finds array elements >5?",
+      "answers": {
+        "A": "arr[arr > 5]",
+        "B": "arr.where(arr>5)",
+        "C": "arr.filter(lambda x: x>5)",
+        "D": "arr.select(arr>5)"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What is the output of np.arange(5)?",
+      "answers": {
+        "A": "[0,1,2,3,4]",
+        "B": "[1,2,3,4,5]",
+        "C": "[0,1,2,3,4,5]",
+        "D": "[5]"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "How do you compute element-wise multiplication?",
+      "answers": {
+        "A": "a * b",
+        "B": "np.multiply(a,b)",
+        "C": "a.dot(b)",
+        "D": "Both A and B"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "What does np.reshape(-1,1) do?",
+      "answers": {
+        "A": "Flattens the array",
+        "B": "Creates a column vector",
+        "C": "Transposes the matrix",
+        "D": "Throws an error"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which finds the index of max value?",
+      "answers": {
+        "A": "arr.max_index()",
+        "B": "np.argmax(arr)",
+        "C": "arr.index(max)",
+        "D": "np.max_index(arr)"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What is the purpose of np.random.seed(42)?",
+      "answers": {
+        "A": "Creates 42 random numbers",
+        "B": "Initializes random number generator",
+        "C": "Generates a 42x42 random matrix",
+        "D": "Sets permanent random state"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "How to stack arrays vertically?",
+      "answers": {
+        "A": "np.vstack()",
+        "B": "np.concatenate(axis=0)",
+        "C": "np.column_stack()",
+        "D": "Both A and B"
+      },
+      "correct_answer": "D"
+    }
+  ],
+  "Logistic Regression": [
+    {
+      "question": "What type of problem is logistic regression for?",
+      "answers": {
+        "A": "Regression",
+        "B": "Classification",
+        "C": "Clustering",
+        "D": "Dimensionality reduction"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which activation function is used?",
+      "answers": {
+        "A": "ReLU",
+        "B": "Sigmoid",
+        "C": "Tanh",
+        "D": "Linear"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What does the cost function optimize?",
+      "answers": {
+        "A": "Mean Squared Error",
+        "B": "Cross-Entropy Loss",
+        "C": "Hinge Loss",
+        "D": "Absolute Error"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "What regularization prevents overfitting?",
+      "answers": {
+        "A": "L1 (Lasso)",
+        "B": "L2 (Ridge)",
+        "C": "Dropout",
+        "D": "Both A and B"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "What is the output range of probabilities?",
+      "answers": {
+        "A": "0 to infinity",
+        "B": "-1 to 1",
+        "C": "0 to 1",
+        "D": "Unbounded"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "Which evaluation metric is commonly used?",
+      "answers": {
+        "A": "Mean Absolute Error",
+        "B": "R-squared",
+        "C": "Confusion Matrix",
+        "D": "Silhouette Score"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "What does the decision boundary separate?",
+      "answers": {
+        "A": "Input features",
+        "B": "Probability distributions",
+        "C": "Predicted classes",
+        "D": "Loss landscapes"
+      },
+      "correct_answer": "C"
+    },
+    {
+      "question": "How are parameters optimized?",
+      "answers": {
+        "A": "Gradient Descent",
+        "B": "Random Search",
+        "C": "Genetic Algorithms",
+        "D": "All of the above"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "What does multiclass logistic regression use?",
+      "answers": {
+        "A": "One-vs-Rest",
+        "B": "Binary decomposition",
+        "C": "Softmax regression",
+        "D": "Both A and C"
+      },
+      "correct_answer": "D"
+    },
+    {
+      "question": "Which assumption does it make about features?",
+      "answers": {
+        "A": "Linear separability",
+        "B": "Normal distribution",
+        "C": "Feature independence",
+        "D": "No multicollinearity"
+      },
+      "correct_answer": "A"
+    }
+  ]
+}
