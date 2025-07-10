@@ -28,17 +28,26 @@ header{
     margin: 20px;
 } */
 
+.mr-40{
+    margin-right: 40px;
+}
+
 /* Main Navigation */
 .main-navigation{
     margin:50px;
 }
 .question-banner,.answer-banner{
-    width: 50%;
+    width: 50%; 
     height: 100%;
     float:left;
 }
 .question-banner{
     margin-right: 20px;
+    background-color: var(--background-color);
+    border-radius: 1.5rem;
+    height:500px;
+    box-shadow: 0 0 10px #1d1515;
+    padding: 10px;
 }
 
 .grid{
@@ -65,7 +74,7 @@ header{
     align-items: center;
     padding-inline: 30px;
 }
-span.text{
+.text{
     font-size: 1.5rem;
 }
 #question{
@@ -114,7 +123,7 @@ div[type="button"]{
 }
 
 .subject-menu{
-    /* margin-top: 5px; */
+    margin-top: 5px;
     position: absolute;
     min-width: 200px;
     background-color: var(--background-color);
@@ -158,6 +167,8 @@ div[type="button"]{
     }
     .main-navigation{
         margin: 0;
+        display: flex;
+        flex-direction: column;
     }
     .question-banner,.answer-banner,.answer-box{
         width: 100%;
@@ -178,10 +189,13 @@ div[type="button"]{
     #question{
     font-size: 2rem;
     }
+    #course-display{
+        display: none;
+    }
 }
-
+/* 
 @media screen and (max-width:576px){
     body span.text{
         font-size: small;
     }
-}
+} */
